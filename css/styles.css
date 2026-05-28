@@ -78,6 +78,7 @@ body {
 
 .clickable {
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dish-image {
@@ -112,6 +113,10 @@ body {
   color: #666;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.menu-item:active {
+  transform: scale(0.98);
 }
 
 .price {
@@ -192,13 +197,6 @@ body {
   font-size: 40px;
   cursor: pointer;
 }
-
-.price {
-  font-weight: 700;
-  white-space: nowrap;
-  z-index: 2;
-}
-
 
 /* MOBILE */
 

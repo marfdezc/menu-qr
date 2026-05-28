@@ -1,7 +1,5 @@
 console.log("Carta QR cargada 🍽️");
 
-console.log("Carta QR cargada 🍽️");
-
 const modal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
 const closeModal = document.querySelector(".close-modal");
